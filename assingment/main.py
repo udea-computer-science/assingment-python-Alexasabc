@@ -1,6 +1,8 @@
-def main():
-    ...
+import pandas as pd
+df = pd.read_csv('/workspaces/assingment-python-Alexasabc/assingment/data.csv', sep = "\t", header = None)
+print(df)
+with(open('data.csv', "x")) as file:
+    data = file.readlines()
+print (data)
 
 
-if __name__ == "__main__":
-    main()
