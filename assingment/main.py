@@ -34,9 +34,3 @@ ordneados alfabeticamente.
 print("Suma de la columna 2 por cada letra de la primera columna")
 print(df.groupby([0]).agg({1: "sum"}))
 print("-"*70)
-
-
-
-
-
-
